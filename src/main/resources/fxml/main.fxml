@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0" style="-fx-background-color: #ffbcd9;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.infoman2.controller.MainController">
+   <children>
+      <Label prefHeight="48.0" prefWidth="204.0" text="New Student" textFill="#e77777">
+         <font>
+            <Font name="Edwardian Script ITC" size="35.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="20.0" right="30.0" top="30.0" />
+         </VBox.margin>
+      </Label>
+      <GridPane prefHeight="152.0" prefWidth="638.0">
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <columnConstraints>
+            <ColumnConstraints maxWidth="480.40001525878904" minWidth="23.399982833862282" prefWidth="148.99998474121094" />
+            <ColumnConstraints maxWidth="515.0000171661377" minWidth="59.59998474121096" prefWidth="391.800015258789" />
+         </columnConstraints>
+         <children>
+            <TextField fx:id="firstName" prefHeight="43.0" prefWidth="392.0" promptText="First Name" style="-fx-background-color: #ffe4e1;" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="Georgia Italic" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="middleName" prefHeight="31.0" prefWidth="392.0" promptText="Middle Name" style="-fx-background-color: #ffe4e1;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="Georgia Italic" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="lastName" prefHeight="34.0" prefWidth="392.0" promptText="Last Name" style="-fx-background-color: #ffe4e1;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="Georgia Italic" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="phone" prefHeight="35.0" prefWidth="392.0" promptText="Phone No." style="-fx-background-color: #ffe4e1;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="Georgia Italic" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="email" prefHeight="47.0" prefWidth="392.0" promptText="Email" style="-fx-background-color: #ffe4e1;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="Georgia Italic" size="12.0" />
+               </font>
+            </TextField>
+            <Label text="First Name" textFill="#e77777">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Label>
+            <Label text="Middle Name" textFill="#e77777" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Label>
+            <Label text="Last Name" textFill="#e77777" GridPane.rowIndex="2">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Label>
+            <Label text="Phone Number" textFill="#e77777" GridPane.rowIndex="4">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Label>
+            <Label text="Email" textFill="#e77777" GridPane.rowIndex="5">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Label>
+            <Label text="Address" textFill="#e77777" GridPane.rowIndex="3">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="address" prefHeight="46.0" prefWidth="392.0" promptText="Address" style="-fx-background-color: #ffe4e1;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Georgia Italic" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></TextField>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </GridPane>
+      <GridPane prefHeight="26.0" prefWidth="591.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="296.0" minWidth="10.0" prefWidth="150.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="464.00001525878906" minWidth="10.0" prefWidth="59.79999999999998" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="464.00001525878906" minWidth="10.0" prefWidth="382.2" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="gend" text="Gender" textFill="#e77777">
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin>
+            </Label>
+            <RadioButton fx:id="male" mnemonicParsing="false" text="Male" textFill="#e77777" GridPane.columnIndex="1">
+               <toggleGroup>
+                  <ToggleGroup fx:id="gender" />
+               </toggleGroup>
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="female" mnemonicParsing="false" prefHeight="18.0" prefWidth="61.0" text="Female" textFill="#e77777" toggleGroup="$gender" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font></RadioButton>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" />
+         </padding>
+      </GridPane>
+      <HBox prefHeight="0.0" prefWidth="474.0">
+         <children>
+            <Button fx:id="saveBtn" alignment="CENTER" mnemonicParsing="false" onAction="#save" style="-fx-background-color: #f38fa9;" text="Save" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font></Button>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#edit" style="-fx-background-color: #f38fa9;" text="Edit" textFill="WHITE" AnchorPane.rightAnchor="60.0">
+                     <font>
+                        <Font name="Georgia" size="12.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" onAction="#delete" style="-fx-background-color: #f38fa9;" text="Delete" textFill="#fffcfc" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font name="Georgia" size="12.0" />
+                     </font></Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <TableView fx:id="table" prefHeight="183.0" prefWidth="614.0" VBox.vgrow="ALWAYS">
+        <columns>
+          <TableColumn fx:id="colFN" prefWidth="75.0" style="-fx-background-color: #ffddf4;" text="First Name" />
+          <TableColumn fx:id="colMN" prefWidth="92.20001220703125" style="-fx-background-color: #ffddf4;" text="Middle Name" />
+            <TableColumn fx:id="colLN" prefWidth="77.39996337890625" style="-fx-background-color: #ffddf4;" text="Last Name" />
+            <TableColumn fx:id="colAD" prefWidth="116.0" style="-fx-background-color: #ffddf4;" text="Address" />
+            <TableColumn fx:id="colPN" prefWidth="97.5999755859375" style="-fx-background-color: #ffddf4;" text="Phone Number" />
+            <TableColumn fx:id="colEM" prefWidth="96.79998779296875" style="-fx-background-color: #ffddf4;" text="Email" />
+            <TableColumn fx:id="colGEN" prefWidth="87.0" style="-fx-background-color: #ffddf4;" text="Gender" />
+        </columns>
+      </TableView>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</VBox>
